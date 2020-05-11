@@ -33,7 +33,7 @@
     background-image:linear-gradient( to right bottom, rgba(130, 195, 236, 0.701), rgba(30, 143, 255, 0.701)), url(../img/backgroundImage.jpg) ;
     background-size: cover;
     background-position: top;
-    clip-path: polygon(100% 0, 91% 9%, 100% 17%, 100% 100%, 0 88%, 0% 0%);
+    clip-path: polygon(0 0, 100% 1%, 100% 85%, 0% 100%);  
     position: relative;
  }
 
