@@ -12,9 +12,10 @@
      padding: 0;
      box-sizing: inherit;
  }
+ 
  html{
      /*We change the font size to make the website responsive */
-     /* font-size: 10px; */
+     /* font-size: 10px;     */
      font-size: 62.5%;
  }
 
@@ -33,7 +34,9 @@
     background-image:linear-gradient( to right bottom, rgba(130, 195, 236, 0.701), rgba(30, 143, 255, 0.701)), url(../img/backgroundImage.jpg) ;
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 1%, 100% 85%, 0% 100%);  
+    clip-path: polygon(16% 0, 100% 0, 100% 91%, 86% 100%, 0 100%, 0 10%);
+
+
     position: relative;
  }
 
