@@ -1,0 +1,63 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary, 0.701),
+        rgba($color-primary-dark, 0.701)
+      ),
+      url(../img/backgroundImage.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(16% 0, 100% 0, 100% 91%, 86% 100%, 0 100%, 0 10%);
+  
+    &__logo-box {
+      position: absolute;
+      top: 4rem;
+      left: 4rem;
+    }
+    &__logo {
+      height: 11.5rem;
+      &:hover {
+        height: 117px;
+        transition: ease-in-out;
+      }
+    }
+    &__text-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -59%);
+      text-align: center;
+    }
+    .heading-primary {
+      color: $color-white;
+      text-transform: uppercase;
+      backface-visibility: hidden;
+      margin-bottom: 1.6rem;
+      &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 700;
+        letter-spacing: 3.5rem;
+        animation-name: moveInLeft;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        /* animation-iteration-count: 2; */
+        animation-timing-function: ease-in;
+      }
+      &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+        text-align: center;
+        animation-name: moveInRight;
+        animation-duration: 2s;
+        animation-delay: 1.2s;
+        /* animation-iteration-count: 2; */
+        animation-timing-function: ease-out;
+      }
+    }
+  }
+  
